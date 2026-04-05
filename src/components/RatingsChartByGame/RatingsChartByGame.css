@@ -34,12 +34,13 @@
 
     .area {
         fill: rgba(255, 100, 100, 0.5);
-        clip-path: url('#clip');
+        clip-path: url("#clip");
         fill: var(--chart-area);
-        stroke: #3587BC;
+        stroke: #3587bc;
     }
 
-    .axis path, .axis line {
+    .axis path,
+    .axis line {
         fill: none;
         stroke: var(--shade3);
         shape-rendering: crispEdges;
@@ -54,7 +55,8 @@
         }
     }
 
-    .loading, .nodata {
+    .loading,
+    .nodata {
         height: 380px;
         display: flex;
         justify-content: center;
@@ -64,13 +66,13 @@
 
     .chart {
         text {
-            fill: #7F8FAF;
+            fill: #7f8faf;
         }
 
         .line {
             fill: none;
             stroke-width: 1.2px;
-            clip-path: url('#clip');
+            clip-path: url("#clip");
         }
 
         .rating.line {
@@ -104,7 +106,8 @@
     }
 
     .subselect .axis {
-        path, line {
+        path,
+        line {
             display: none;
         }
     }
@@ -113,7 +116,7 @@
         .tick {
             text {
                 text-anchor: start !important;
-                fill: #7F8FAF;
+                fill: #7f8faf;
             }
 
             line {

@@ -51,7 +51,7 @@
     .active-games {
         flex-grow: 1;
         flex-basis: 20rem;
-        //width: 100%;
+        /* width: 100%; */
         margin-top: 1rem;
         margin-left: auto;
         margin-right: auto;

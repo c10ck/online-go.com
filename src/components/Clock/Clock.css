@@ -99,11 +99,11 @@
 
     &.start-mode {
         &.black {
-            color: #63A7FF !important;
+            color: #63a7ff !important;
         }
 
         &.white {
-            color: #147AFF !important;
+            color: #147aff !important;
         }
     }
 
@@ -130,7 +130,9 @@
         }
 
         &.in-overtime {
-            .periods, .period-time, .byo-yomi-periods {
+            .periods,
+            .period-time,
+            .byo-yomi-periods {
                 font-size: var(--font-size-small);
             }
         }
@@ -138,7 +140,8 @@
 }
 
 .MainGobanView {
-    .byo-yomi-container, .canadian-container {
+    .byo-yomi-container,
+    .canadian-container {
         font-size: var(--font-size-mid);
     }
 }

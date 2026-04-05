@@ -44,22 +44,24 @@
         }
     }
 
-    &.wdc2021, &.wsc2022, &.wsc2023, &.wsc2024 {
+    &.wdc2021,
+    &.wsc2022,
+    &.wsc2023,
+    &.wsc2024 {
         .icon {
-            background-image: url('https://cdn.online-go.com/achievements/wdc2021.png');
+            background-image: url("https://cdn.online-go.com/achievements/wdc2021.png");
         }
     }
-    
+
     &.wsc2025 {
         .icon {
-            background-image: url('https://cdn.online-go.com/achievements/wsc2025-v2.png');
+            background-image: url("https://cdn.online-go.com/achievements/wsc2025-v2.png");
         }
     }
 
     &.wsc2025-grand-slam {
         .icon {
-            background-image: url('https://cdn.online-go.com/achievements/wsc2025-grand-slam-v2.png');
+            background-image: url("https://cdn.online-go.com/achievements/wsc2025-grand-slam-v2.png");
         }
     }
-    
 }

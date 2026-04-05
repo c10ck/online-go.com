@@ -90,7 +90,9 @@ export const suspendedUserCanLoginToAppealTest = async ({
     log("Redirected to appeal page");
 
     // 6. Verify the appeal page shows the suspension reason
-    await expect(page.getByText(/Your account has been suspended/i)).toBeVisible({ timeout: 10000 });
+    await expect(page.getByText(/Your account has been suspended/i)).toBeVisible({
+        timeout: 10000,
+    });
     await expect(page.getByText(banReason)).toBeVisible();
     log("Suspension reason displayed");
 

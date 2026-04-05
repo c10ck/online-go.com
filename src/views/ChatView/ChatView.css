@@ -25,7 +25,8 @@
     max-width: 100dvw;
     flex-direction: row;
 
-    .ChatChannelList, .ChatUsersList {
+    .ChatChannelList,
+    .ChatUsersList {
         flex-basis: 20%;
         flex-shrink: 0;
         flex-grow: 0;
@@ -68,7 +69,8 @@
 }
 
 .ChatHeader {
-    .fa-list, .fa-users {
+    .fa-list,
+    .fa-users {
         display: none;
     }
 }
@@ -95,7 +97,8 @@
     }
 
     .ChatHeader {
-        .fa-list, .fa-users {
+        .fa-list,
+        .fa-users {
             display: inline-flex;
         }
     }

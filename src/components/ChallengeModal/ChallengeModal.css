@@ -34,16 +34,18 @@
             word-wrap: break-word;
         }
 
-        .controls, .checkbox {
+        .controls,
+        .checkbox {
             width: 10rem;
             align-items: flex-start;
         }
 
-        input, select {
+        input,
+        select {
             width: 10rem;
         }
 
-        input[type='checkbox'] {
+        input[type="checkbox"] {
             width: 1rem;
         }
 
@@ -233,7 +235,7 @@
             border-color: var(--primary);
         }
     }
-    
+
     .body.computer-settings-expanded {
         min-height: 16rem;
         max-height: 16rem;

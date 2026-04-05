@@ -114,21 +114,24 @@
             align-items: center;
             justify-content: center;
             z-index: 10;
-            background: linear-gradient(135deg, #2480FF, #005580);
-            color: #FFFFFF;
+            background: linear-gradient(135deg, #2480ff, #005580);
+            color: #ffffff;
             border: none;
             height: 100px;
             width: 20px;
             cursor: pointer;
-            transition: background 0.3s ease-in-out, left 0.3s ease-in-out, transform 0.3s ease-in-out;
+            transition:
+                background 0.3s ease-in-out,
+                left 0.3s ease-in-out,
+                transform 0.3s ease-in-out;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             font-size: 1rem;
             font-weight: normal;
             border-radius: 0 10px 10px 0;
 
             &::after {
-                font-family: 'FontAwesome';
-                content: '\f053'; /* FontAwesome left arrow */
+                font-family: "FontAwesome";
+                content: "\f053"; /* FontAwesome left arrow */
                 display: inline-block;
                 transition: content 0.3s ease-in-out;
             }
@@ -138,12 +141,12 @@
             left: 0;
 
             &::after {
-                content: '\f0c9'; /* FontAwesome list icon */
+                content: "\f0c9"; /* FontAwesome list icon */
             }
 
             &:hover {
                 &::after {
-                    content: '\f054'; /* FontAwesome right arrow on hover */
+                    content: "\f054"; /* FontAwesome right arrow on hover */
                 }
             }
         }
@@ -157,21 +160,24 @@
             align-items: center;
             justify-content: center;
             z-index: 10;
-            background: linear-gradient(135deg, #2480FF, #005580);
-            color: #FFFFFF;
+            background: linear-gradient(135deg, #2480ff, #005580);
+            color: #ffffff;
             border: none;
             height: 100px;
             width: 20px;
             cursor: pointer;
-            transition: background 0.3s ease-in-out, right 0.3s ease-in-out, transform 0.3s ease-in-out;
+            transition:
+                background 0.3s ease-in-out,
+                right 0.3s ease-in-out,
+                transform 0.3s ease-in-out;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             font-size: 1rem;
             font-weight: normal;
             border-radius: 10px 0 0 10px;
 
             &::after {
-                font-family: 'FontAwesome';
-                content: '\f054'; /* FontAwesome right arrow */
+                font-family: "FontAwesome";
+                content: "\f054"; /* FontAwesome right arrow */
                 display: inline-block;
                 transition: content 0.3s ease-in-out;
             }
@@ -181,12 +187,12 @@
             right: 0;
 
             &::after {
-                content: '\f086'; /* FontAwesome chat icon */
+                content: "\f086"; /* FontAwesome chat icon */
             }
 
             &:hover {
                 &::after {
-                    content: '\f053'; /* FontAwesome left arrow on hover */
+                    content: "\f053"; /* FontAwesome left arrow on hover */
                 }
             }
         }
@@ -200,7 +206,9 @@
             overflow: hidden;
             background-color: var(--bg);
             position: relative;
-            transition: flex 0.3s ease-in-out, transform 0.3s ease-in-out;
+            transition:
+                flex 0.3s ease-in-out,
+                transform 0.3s ease-in-out;
         }
 
         .chat-pane.collapsed {
@@ -233,13 +241,15 @@
             flex: 1;
             cursor: pointer;
             border-bottom: 2px solid transparent;
-            transition: background-color 0.3s ease-in-out, border-bottom 0.3s ease-in-out;
+            transition:
+                background-color 0.3s ease-in-out,
+                border-bottom 0.3s ease-in-out;
             display: flex;
             justify-content: center;
             align-items: center;
 
             .ogs-chat-tab-logo {
-                background-image: svg-load('ogslogo.svg');
+                background-image: svg-load("ogslogo.svg");
                 background-size: contain;
                 background-repeat: no-repeat;
                 height: 30px;
@@ -248,7 +258,7 @@
             }
 
             .twitch-chat-tab-logo {
-                background-image: svg-load('glitch_flat_purple.svg');
+                background-image: svg-load("glitch_flat_purple.svg");
                 background-size: contain;
                 background-repeat: no-repeat;
                 width: 30px;
@@ -385,7 +395,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        color: #FFFFFF;
+        color: #ffffff;
         cursor: pointer;
         z-index: 110;
         background: transparent;
@@ -399,14 +409,14 @@
         font-weight: bold;
 
         &::after {
-            font-family: 'FontAwesome';
-            content: '\f0c9'; /* FontAwesome list icon */
+            font-family: "FontAwesome";
+            content: "\f0c9"; /* FontAwesome list icon */
             display: inline-block;
             margin-left: 10px;
         }
 
         &.collapsed:hover::after {
-            content: '\f0c9'; /* FontAwesome list icon */
+            content: "\f0c9"; /* FontAwesome list icon */
         }
     }
 

@@ -49,7 +49,8 @@
         flex-basis: 99%;
     }
 
-    .left-col, .right-col {
+    .left-col,
+    .right-col {
         max-width: 400px;
         overflow-y: auto;
         overflow-x: hidden;
@@ -89,12 +90,14 @@
     .horizontal {
         overflow-x: hidden;
 
-        dt, dd {
+        dt,
+        dd {
             width: 45%;
         }
     }
 
-    input, textarea {
+    input,
+    textarea {
         width: 100%;
     }
 
@@ -117,7 +120,8 @@
             padding-right: 0.5rem;
         }
 
-        .incorrect, .success {
+        .incorrect,
+        .success {
             font-size: var(--font-size-big);
             text-align: center;
             padding: 1rem;

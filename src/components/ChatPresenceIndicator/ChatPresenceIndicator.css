@@ -22,6 +22,10 @@
     /* This does not appear to be used, because of the version in Players.styl */
     &.online {
         color: pink; /* flush out if it gets used somewhere with this pink and the below black */
-        text-shadow: -1px -1px 0 #000, 1px -1px 0 #8c8, -1px 1px 0 #8c8, 1px 1px 0 #6a6;
+        text-shadow:
+            -1px -1px 0 #000,
+            1px -1px 0 #8c8,
+            -1px 1px 0 #8c8,
+            1px 1px 0 #6a6;
     }
 }

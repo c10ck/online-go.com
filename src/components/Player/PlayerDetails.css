@@ -17,7 +17,9 @@
 .PlayerDetails {
     box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
     border: 1px solid transparent;
-    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.16), 0px 2px 5px 0px rgba(0, 0, 0, 0.15);
+    box-shadow:
+        0px 2px 10px 0px rgba(0, 0, 0, 0.16),
+        0px 2px 5px 0px rgba(0, 0, 0, 0.15);
     background-color: var(--shade4);
     border-color: var(--shade3);
     color: var(--fg);
@@ -67,7 +69,8 @@
             min-width: 48%;
             text-align: left;
 
-            .fa, .ogs-goban {
+            .fa,
+            .ogs-goban {
                 padding-right: 0.5rem;
             }
         }

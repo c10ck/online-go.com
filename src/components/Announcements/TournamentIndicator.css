@@ -27,7 +27,12 @@
         /* color: #E7DB00; */
         color: gold;
         /* text-stroke: 1px black; */
-        text-shadow: 0px 0px 0 #888, -1px -1px 0 #888, 1px -1px 0 #888, -1px 1px 0 #888, 1px 1px 0 #888;
+        text-shadow:
+            0px 0px 0 #888,
+            -1px -1px 0 #888,
+            1px -1px 0 #888,
+            -1px 1px 0 #888,
+            1px 1px 0 #888;
     }
 
     .time {
@@ -40,6 +45,6 @@
     text-decoration: none;
 
     .fa-trophy {
-        color: #FFED00;
+        color: #ffed00;
     }
 }

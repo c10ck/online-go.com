@@ -28,7 +28,7 @@ import { post, get, abort_requests_in_flight } from "@/lib/requests";
 import { errorAlerter } from "@/lib/misc";
 import { DismissableNotification } from "@/components/DismissableNotification";
 import { FriendList } from "@/components/FriendList";
-import { PlayButtons } from "./PlayButtons";
+import { PlayButtons } from "../Play/PlayButtons";
 import { ProfileCard } from "@/components/ProfileCard";
 import { InviteList } from "./InviteList";
 import { ChallengesList } from "./ChallengesList";

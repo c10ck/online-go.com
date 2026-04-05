@@ -15,7 +15,8 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 .TournamentList {
-    .fa, .ogs-turtle {
+    .fa,
+    .ogs-turtle {
         padding-right: 0.4rem;
     }
 
@@ -66,7 +67,8 @@
         height: 24px;
     }
 
-    th, td {
+    th,
+    td {
         padding: 0.5rem;
         vertical-align: top;
     }
@@ -75,12 +77,14 @@
         display: flex;
         justify-content: center;
 
-        .fa, .ogs-turtle {
+        .fa,
+        .ogs-turtle {
             color: var(--supporter-gold);
         }
     }
 
-    .group-tourny, .site-tourny {
+    .group-tourny,
+    .site-tourny {
         font-size: 1.3rem;
         width: 1.5rem;
         padding-right: 0.3rem;

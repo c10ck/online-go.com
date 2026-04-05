@@ -23,10 +23,11 @@
         justify-content: center;
         line-height: 1em;
 
-        font-size: .7rem;
+        font-size: 0.7rem;
 
         /* show when the menu is opened, or the button is focused */
-        &.active, &:focus {
+        &.active,
+        &:focus {
             z-index: 1;
             width: initial;
             height: initial;

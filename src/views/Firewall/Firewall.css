@@ -39,7 +39,8 @@
     }
 
     .config {
-        > span, > input {
+        > span,
+        > input {
             margin-left: 1rem;
         }
     }
@@ -62,11 +63,11 @@
             }
         }
 
-        input[type='number'] {
+        input[type="number"] {
             width: 7rem;
         }
 
-        input[type='text'] {
+        input[type="text"] {
             width: 40rem;
         }
 

@@ -24,7 +24,8 @@
     .horizontal {
         overflow-x: hidden;
 
-        dt, dd {
+        dt,
+        dd {
             width: 45%;
         }
     }

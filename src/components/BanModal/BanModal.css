@@ -33,7 +33,8 @@
         }
     }
 
-    .rdt { /* react date time */
+    .rdt {
+        /* react date time */
         margin-bottom: 0.5rem;
     }
 }

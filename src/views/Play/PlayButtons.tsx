@@ -165,6 +165,7 @@ export function PlayButtons(): React.ReactElement {
             </button>
             <button className="play-button" onClick={() => challengeComputer()}>
                 {_("Play Computer")}
+                <i className="fa-solid fa-robot"></i>
             </button>
             {last_game_id && (
                 <button

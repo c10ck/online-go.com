@@ -63,7 +63,8 @@
         color: supporter;
     }
 
-    .fa-list-ol, .group-icon {
+    .fa-list-ol,
+    .group-icon {
         margin-right: 0.5rem;
     }
 }

@@ -31,7 +31,8 @@
         display: flex;
         align-items: center;
 
-        .title-left, .title-right {
+        .title-left,
+        .title-right {
             flex: 1;
             border-top: 0.2rem solid transparent;
             border-color: var(--shade3);
@@ -70,7 +71,8 @@
             color: var(--colored-background-fg);
         }
 
-        .title-left, .title-right {
+        .title-left,
+        .title-right {
             border-color: var(--primary);
         }
     }

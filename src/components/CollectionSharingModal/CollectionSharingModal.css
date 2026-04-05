@@ -100,7 +100,8 @@
                 font-size: 1.1rem;
             }
 
-            .add-player, .add-group {
+            .add-player,
+            .add-group {
                 display: flex;
                 gap: 0.5rem;
                 margin-bottom: 1rem;

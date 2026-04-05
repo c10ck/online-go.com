@@ -36,8 +36,8 @@
     flex-direction: row-reverse;
 
     .fa-star {
-        color: #FFA100;
-        text-shadow: 0 0 2px #FFF300;
+        color: #ffa100;
+        text-shadow: 0 0 2px #fff300;
     }
 
     .MiniGoban {
@@ -73,7 +73,7 @@
     justify-content: center;
 
     .learning-hub-active {
-        background-color: #3893E8;
+        background-color: #3893e8;
         color: #fff;
     }
 
@@ -123,7 +123,9 @@
                     .section-chevron {
                         color: var(--shade2);
                         font-size: 1rem;
-                        transition: color 0.2s ease, transform 0.2s ease;
+                        transition:
+                            color 0.2s ease,
+                            transform 0.2s ease;
                     }
 
                     h2 {
@@ -185,7 +187,9 @@
             /* Collapsible content area with proper card styling */
             > .contents {
                 padding: 1.5rem;
-                background-color: var(--shade5); /* Use shade5 instead of shade6 for compatibility */
+                background-color: var(
+                    --shade5
+                ); /* Use shade5 instead of shade6 for compatibility */
                 border-radius: 0 0 0.5rem 0.5rem;
                 border: 1px solid;
                 border-color: var(--shade4);
@@ -196,7 +200,10 @@
                 column-gap: 1.5rem; /* Reduced gap for more space */
                 row-gap: 1rem; /* Keep vertical spacing at 1rem */
                 justify-content: space-around; /* Space cards evenly */
-                transition: max-height 0.3s ease, padding 0.3s ease, opacity 0.3s ease;
+                transition:
+                    max-height 0.3s ease,
+                    padding 0.3s ease,
+                    opacity 0.3s ease;
                 overflow: hidden;
                 width: 100%;
                 box-sizing: border-box;
@@ -246,7 +253,13 @@
             /* The h2 is now inside .section-header, not a direct child of .section */
             /* The .contents now properly uses CSS Grid as defined above */
             .under-construction {
-                background-image: repeating-linear-gradient(-45deg, darken(#FFCC00, 30%), darken(#FFCC00, 10%) 10px, #000 10px, #000 20px);
+                background-image: repeating-linear-gradient(
+                    -45deg,
+                    darken(#ffcc00, 30%),
+                    darken(#ffcc00, 10%) 10px,
+                    #000 10px,
+                    #000 20px
+                );
             }
 
             .Card {
@@ -260,7 +273,11 @@
                 border-radius: 0.3rem;
                 text-align: left;
 
-                i.fa-thumbs-up, i.fa-desktop, i.fa-puzzle-piece, i.ogs-goban, img {
+                i.fa-thumbs-up,
+                i.fa-desktop,
+                i.fa-puzzle-piece,
+                i.ogs-goban,
+                img {
                     width: 4rem;
                     height: 4rem;
                     margin: 1rem;
@@ -352,7 +369,8 @@
     max-height: calc(100dvh - 10rem);
     overflow-y: auto;
 
-    > a { /* main menu */
+    > a {
+        /* main menu */
         font-size: var(--font-size-big);
         color: var(--shade0);
     }

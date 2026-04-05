@@ -54,7 +54,8 @@
         align-content: stretch;
         align-items: stretch;
 
-        .trial-board, .trial-graph {
+        .trial-board,
+        .trial-graph {
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -63,7 +64,7 @@
         .trial-board {
             flex: 1.8;
             border-top-left-radius: 0.5rem;
-            background-image: url('https://cdn.online-go.com/5.1/img/trial_board.png');
+            background-image: url("https://cdn.online-go.com/5.1/img/trial_board.png");
             width: 15rem;
             height: 65%;
         }
@@ -72,7 +73,7 @@
             flex: 1;
             background-color: #333;
             border-bottom-right-radius: 0.5rem;
-            background-image: url('https://cdn.online-go.com/5.1/img/trial_graph.png');
+            background-image: url("https://cdn.online-go.com/5.1/img/trial_graph.png");
             width: 15rem;
             height: 35%;
             transform: scaleX(-1);
@@ -81,7 +82,8 @@
         @media screen and (max-width: 850px) {
             flex-basis: 18rem;
 
-            .trial-board, .trial-graph {
+            .trial-board,
+            .trial-graph {
                 width: 100%;
             }
 
@@ -111,7 +113,8 @@
         /* height: 100%; */
         align-content: space-between;
 
-        h3, h4 {
+        h3,
+        h4 {
             text-align: center;
             /* margin: 0.5rem; */
             display: flex;
@@ -141,7 +144,8 @@
             padding-left: 0;
             padding-right: 0;
 
-            h3, h4 {
+            h3,
+            h4 {
                 margin-bottom: 0;
             }
         }

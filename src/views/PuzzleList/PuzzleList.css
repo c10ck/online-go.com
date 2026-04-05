@@ -71,8 +71,9 @@
     }
 
     .rating {
-        .fa-star, .fa-star-half-o {
-            color: #FFB74D;
+        .fa-star,
+        .fa-star-half-o {
+            color: #ffb74d;
         }
     }
 }

@@ -75,7 +75,8 @@
             font-style: italic;
         }
 
-        .Player, button {
+        .Player,
+        button {
             margin-left: auto;
         }
     }

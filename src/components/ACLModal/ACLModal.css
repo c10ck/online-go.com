@@ -43,7 +43,8 @@
         flex-justify: spacing-between;
         margin: 1rem;
 
-        .PlayerAutocomplete, .GroupAutocomplete {
+        .PlayerAutocomplete,
+        .GroupAutocomplete {
             margin-right: 1rem;
         }
 

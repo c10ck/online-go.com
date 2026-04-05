@@ -40,7 +40,9 @@
     .announcement-card {
         border-radius: 0.5rem;
         overflow: hidden;
-        transition: box-shadow 0.2s ease, transform 0.15s ease;
+        transition:
+            box-shadow 0.2s ease,
+            transform 0.15s ease;
         border: 1px solid;
         border-color: var(--shade4);
         background-color: var(--bg);
@@ -145,7 +147,11 @@
             .language-tag {
                 display: inline-block;
                 padding: 0.15rem 0.5rem;
-                background: linear-gradient(135deg, rgba(100, 150, 200, 0.15), rgba(100, 200, 150, 0.15));
+                background: linear-gradient(
+                    135deg,
+                    rgba(100, 150, 200, 0.15),
+                    rgba(100, 200, 150, 0.15)
+                );
                 border-radius: 0.25rem;
                 font-size: 0.75rem;
                 font-weight: 500;
@@ -360,7 +366,8 @@
         max-width: 100dvw;
     }
 
-    input, select {
+    input,
+    select {
         width: 30rem;
         max-width: 90dvw;
 
@@ -430,7 +437,6 @@
         display: flex;
         flex-direction: column;
         gap: 0.25rem;
-
     }
     .language-badge {
         display: inline-block;
@@ -445,7 +451,7 @@
         font-size: 0.9rem;
         margin-top: 1rem;
         margin-bottom: 1rem;
-        line-height: 1.0rem;
+        line-height: 1rem;
         text-align: center;
     }
 }

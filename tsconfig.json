@@ -21,10 +21,7 @@
             "@helpers/*": ["e2e-tests/helpers/*"],
             "@helpers": ["e2e-tests/helpers"],
             "@stubs/*": ["src/stubs/*"],
-            "@moderator-ui/*": [
-                "submodules/moderator-ui/*",
-                "src/stubs/moderator-ui/*"
-            ]
+            "@moderator-ui/*": ["submodules/moderator-ui/*", "src/stubs/moderator-ui/*"]
         },
 
         "forceConsistentCasingInFileNames": true,

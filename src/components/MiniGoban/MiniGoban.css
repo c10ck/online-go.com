@@ -40,7 +40,8 @@
         align-items: center;
         margin-bottom: 0.5rem;
 
-        .game-date, .game-result {
+        .game-date,
+        .game-result {
             font-size: smaller;
         }
     }
@@ -95,7 +96,8 @@
         position: absolute;
     }
 
-    .title-white, .title-black {
+    .title-white,
+    .title-black {
         position: absolute;
         display: flex;
         flex-direction: row;

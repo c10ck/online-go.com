@@ -1,1 +1,1 @@
-declare module 'js-noise';
+declare module "js-noise";

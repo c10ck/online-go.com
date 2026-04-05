@@ -32,7 +32,8 @@
     .auto-score {
         background: var(--shade5);
 
-        a.Player, .game-log-player {
+        a.Player,
+        .game-log-player {
             color: var(--shade1);
         }
     }

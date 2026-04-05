@@ -14,7 +14,7 @@
         grid-template-columns: repeat(var(--columns, 1), 1fr);
 
         &:after {
-            content: '';
+            content: "";
             height: 10px;
             grid-column-start: span var(--columns, 1);
         }

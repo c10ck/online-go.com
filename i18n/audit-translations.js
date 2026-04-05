@@ -449,8 +449,7 @@ async function llm_translate(key, entry, lang, language) {
                         },
                         {
                             role: "system",
-                            content:
-                                "Translate the provided string from English to " + language,
+                            content: "Translate the provided string from English to " + language,
                         },
                         { role: "user", content: entry.msgid },
                     ],

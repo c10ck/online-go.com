@@ -74,7 +74,11 @@ export const cmInformalWarnEscaperTest = async (
     const { userPage: accusedPage } = await prepareNewUser(createContext, accusedUsername, "test");
 
     const reporterUsername = newTestUsername("IWERep"); // cspell:disable-line
-    const { userPage: reporterPage } = await prepareNewUser(createContext, reporterUsername, "test");
+    const { userPage: reporterPage } = await prepareNewUser(
+        createContext,
+        reporterUsername,
+        "test",
+    );
 
     await withReportCountTracking(
         reporterPage,

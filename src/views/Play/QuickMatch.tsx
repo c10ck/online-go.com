@@ -46,6 +46,7 @@ import { openPlayPageHelp } from "./PlayPageHelp";
 import { notification_manager, Notification } from "@/components/Notifications/NotificationManager";
 import { Card } from "@/components/material";
 import "./QuickMatch.css";
+import "./PlayButtons.css";
 
 moment.relativeTimeThreshold("m", 56);
 export interface SelectOption {
@@ -188,6 +189,42 @@ export function QuickMatch(): React.ReactElement {
     const [multiple_speeds, setMultipleSpeeds] = preferences.usePreference(
         "automatch.multiple-speeds",
     );
+
+    const playLabelDetails = React.useMemo((): React.ReactNode => {
+        if (game_clock === "multiple") {
+            const selected_size_count = Object.values(multiple_sizes).filter((x) => x).length;
+            const selected_speed_count = Object.values(multiple_speeds).filter((x) => x).length;
+            if (selected_size_count > 1 || selected_speed_count > 1) {
+                return _("Quick Match");
+            }
+        }
+
+        const size = board_size;
+        const opt = SPEED_OPTIONS[size]?.[game_speed];
+
+        let timeDesc: string;
+        if (!opt) {
+            timeDesc = "2m + 5x30s";
+        } else if (time_control_system === "byoyomi" && opt.byoyomi) {
+            const main = shortDurationString(opt.byoyomi.main_time);
+            const periods = opt.byoyomi.periods;
+            const period_time = shortDurationString(opt.byoyomi.period_time);
+            timeDesc = `${main} + ${periods}x${period_time}`;
+        } else {
+            const initial = shortDurationString(opt.fischer.initial_time);
+            const increment = shortDurationString(opt.fischer.time_increment);
+            timeDesc = `${initial} + ${increment}`;
+        }
+
+        const sizeLabel = opt ? size : "9x9";
+
+        return (
+            <span className="play-label-details">
+                <span className="play-label-size">{sizeLabel}</span>
+                <span className="play-label-time">{timeDesc}</span>
+            </span>
+        );
+    }, [board_size, game_speed, time_control_system, game_clock, multiple_sizes, multiple_speeds]);
 
     React.useEffect(() => {
         automatch_manager.on("entry", refresh);
@@ -721,8 +758,14 @@ export function QuickMatch(): React.ReactElement {
 
     return (
         <>
-            <h1 className="sr-only">Plays Go – Find a Game</h1>
-            <div id="QuickMatch">
+            <h1 className="sr-only">Play Go – Find a Game</h1>
+            <div className="PlayButtons">
+                <button className="play-button primary" onClick={doAutomatch}>
+                    <span className="play-label">
+                        <span className="play-label-play">{_("Play")}</span>
+                        {playLabelDetails}
+                    </span>
+                </button>
                 {/* Board Size */}
                 <section className="GameOption-cell" aria-labelledby={boardSizeId}>
                     <div id={boardSizeId} className="GameOption BoardSize-header">

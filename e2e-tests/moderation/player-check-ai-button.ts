@@ -140,7 +140,9 @@ export const playerCheckAIButtonTest = async ({
 
     // 11. Verify navigation to AI Detection page
     log("Verifying navigation to AI Detection page...");
-    await expect(modPage.getByRole("heading", { name: /AI Detection/i })).toBeVisible({ timeout: 15000 });
+    await expect(modPage.getByRole("heading", { name: /AI Detection/i })).toBeVisible({
+        timeout: 15000,
+    });
     log("AI Detection page loaded ✓");
 
     // 12. Verify the URL contains the player parameter

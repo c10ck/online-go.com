@@ -199,7 +199,11 @@ export const cmEscapeRateDisplayTest = async (
     const { userPage: accusedPage } = await prepareNewUser(createContext, accusedUsername, "test");
 
     const reporterUsername = newTestUsername("ERHRep"); // cspell:disable-line
-    const { userPage: reporterPage } = await prepareNewUser(createContext, reporterUsername, "test");
+    const { userPage: reporterPage } = await prepareNewUser(
+        createContext,
+        reporterUsername,
+        "test",
+    );
 
     await withReportCountTracking(
         reporterPage,

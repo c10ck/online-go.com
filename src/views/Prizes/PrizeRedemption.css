@@ -11,7 +11,8 @@
 }
 
 @keyframes gentle-pulse {
-    0%, 100% {
+    0%,
+    100% {
         transform: scale(1);
     }
     50% {
@@ -48,7 +49,9 @@
     max-width: 540px;
     margin: 40px auto;
     padding: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Noto Sans CJK", "Helvetica Neue", "PingFang SC", "Hiragino Sans", "Microsoft YaHei", sans-serif;
+    font-family:
+        -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Noto Sans CJK",
+        "Helvetica Neue", "PingFang SC", "Hiragino Sans", "Microsoft YaHei", sans-serif;
 
     h2 {
         color: var(--fg);
@@ -146,23 +149,29 @@
                     outline: none;
                     border-color: var(--primary);
                     transform: translateY(-2px);
-                    box-shadow: 0 8px 32px rgba(212, 175, 55, 0.15), 0 0 0 4px rgba(212, 175, 55, 0.08);
+                    box-shadow:
+                        0 8px 32px rgba(212, 175, 55, 0.15),
+                        0 0 0 4px rgba(212, 175, 55, 0.08);
                 }
 
                 &.loading {
-                    background: linear-gradient(90deg,
+                    background: linear-gradient(
+                        90deg,
                         rgba(255, 255, 255, 0),
                         rgba(212, 175, 55, 0.05),
-                        rgba(255, 255, 255, 0));
+                        rgba(255, 255, 255, 0)
+                    );
                     background-size: 1000px 100%;
                     animation: shimmer 2s ease-out infinite;
                 }
 
                 &.valid {
                     border-color: #22c55e;
-                    background: linear-gradient(135deg,
+                    background: linear-gradient(
+                        135deg,
                         rgba(34, 197, 94, 0.02),
-                        rgba(34, 197, 94, 0.01));
+                        rgba(34, 197, 94, 0.01)
+                    );
                 }
             }
         }
@@ -187,10 +196,12 @@
                     left: -100%;
                     width: 100%;
                     height: 100%;
-                    background: linear-gradient(90deg,
+                    background: linear-gradient(
+                        90deg,
                         transparent,
                         rgba(255, 255, 255, 0.2),
-                        transparent);
+                        transparent
+                    );
                     animation: shimmer 3s ease-in-out infinite;
                 }
             }
@@ -256,7 +267,12 @@
                 transform: translateX(-50%);
                 width: 40px;
                 height: 2px;
-                background: linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.4), transparent);
+                background: linear-gradient(
+                    90deg,
+                    transparent,
+                    rgba(212, 175, 55, 0.4),
+                    transparent
+                );
                 border-radius: 1px;
             }
         }
@@ -264,7 +280,11 @@
         /* Main content area */
         .prize-content {
             .prize-info-card {
-                background: linear-gradient(135deg, rgba(250, 250, 250, 0.03), rgba(255, 255, 255, 0.06));
+                background: linear-gradient(
+                    135deg,
+                    rgba(250, 250, 250, 0.03),
+                    rgba(255, 255, 255, 0.06)
+                );
                 border-radius: 16px;
                 padding: 24px;
                 border: 1px solid;
@@ -343,7 +363,11 @@
                 border: 1px solid;
                 border-color: var(--shade3);
                 margin-bottom: 12px;
-                background: linear-gradient(135deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.04));
+                background: linear-gradient(
+                    135deg,
+                    rgba(255, 255, 255, 0.02),
+                    rgba(255, 255, 255, 0.04)
+                );
                 transition: all 0.2s ease;
 
                 &:hover {
@@ -412,7 +436,11 @@
 
                 &.new-supporter {
                     .card-icon {
-                        background: linear-gradient(135deg, rgba(34, 197, 94, 0.1), rgba(34, 197, 94, 0.05));
+                        background: linear-gradient(
+                            135deg,
+                            rgba(34, 197, 94, 0.1),
+                            rgba(34, 197, 94, 0.05)
+                        );
                         border: 1px solid rgba(34, 197, 94, 0.2);
 
                         span {
@@ -423,7 +451,11 @@
 
                 &.level-up {
                     .card-icon {
-                        background: linear-gradient(135deg, rgba(34, 197, 94, 0.1), rgba(34, 197, 94, 0.05));
+                        background: linear-gradient(
+                            135deg,
+                            rgba(34, 197, 94, 0.1),
+                            rgba(34, 197, 94, 0.05)
+                        );
                         border: 1px solid rgba(34, 197, 94, 0.2);
 
                         span {
@@ -434,7 +466,11 @@
 
                 &.max-level {
                     .card-icon {
-                        background: linear-gradient(135deg, rgba(239, 68, 68, 0.1), rgba(239, 68, 68, 0.05));
+                        background: linear-gradient(
+                            135deg,
+                            rgba(239, 68, 68, 0.1),
+                            rgba(239, 68, 68, 0.05)
+                        );
                         border: 1px solid rgba(239, 68, 68, 0.2);
 
                         span {
@@ -445,7 +481,11 @@
 
                 &.extend {
                     .card-icon {
-                        background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(59, 130, 246, 0.05));
+                        background: linear-gradient(
+                            135deg,
+                            rgba(59, 130, 246, 0.1),
+                            rgba(59, 130, 246, 0.05)
+                        );
                         border: 1px solid rgba(59, 130, 246, 0.2);
 
                         span {
@@ -481,13 +521,21 @@
 }
 
 @keyframes shake {
-    0%, 100% {
+    0%,
+    100% {
         transform: translateX(0);
     }
-    10%, 30%, 50%, 70%, 90% {
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
         transform: translateX(-2px);
     }
-    20%, 40%, 60%, 80% {
+    20%,
+    40%,
+    60%,
+    80% {
         transform: translateX(2px);
     }
 }

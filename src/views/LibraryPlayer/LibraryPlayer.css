@@ -114,11 +114,14 @@
         overflow-x: auto;
     }
 
-    .collections, .games {
+    .collections,
+    .games {
         display: table;
     }
 
-    .collection-entry, .game-entry, .sort-header {
+    .collection-entry,
+    .game-entry,
+    .sort-header {
         display: table-row;
 
         span {
@@ -159,8 +162,8 @@
         font-size: 0.7rem;
         margin-left: 0.2rem;
         margin-bottom: 0.2rem;
-        font-family: 'FontAwesome';
-        content: ' ';
+        font-family: "FontAwesome";
+        content: " ";
     }
 
     .sortable.sorted-asc:after {
@@ -177,7 +180,8 @@
         text-align: center;
     }
 
-    .fa-lock, .fa-unlock {
+    .fa-lock,
+    .fa-unlock {
         cursor: pointer;
     }
 
@@ -193,11 +197,13 @@
         padding-left: 2rem;
     }
 
-    .collection, .name-column {
+    .collection,
+    .name-column {
         min-width: 12rem;
     }
 
-    .black-column, .white-column {
+    .black-column,
+    .white-column {
         min-width: 6rem;
     }
 
@@ -214,7 +220,7 @@
         align-items: center;
         gap: 1rem;
 
-        input[type='text'] {
+        input[type="text"] {
             min-width: 200px;
             margin: 0;
         }
@@ -259,5 +265,4 @@
             margin-left: 0.5rem;
         }
     }
-
 }

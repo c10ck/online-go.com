@@ -75,9 +75,7 @@ export const modDontAutoWarnBlitzTest = async (
     // Now challenger is waiting for escaper ... eventually escaper times out
     // and challenger gets the ack that we are looking for
 
-    log(
-        "cmDontAutoWarnBlitzTest waiting escaper timeout to not have warning (about a minute)",
-    );
+    log("cmDontAutoWarnBlitzTest waiting escaper timeout to not have warning (about a minute)");
 
     // Wait a minute, then verify no warning was generated
     await challengerPage.waitForTimeout(60000);

@@ -17,7 +17,9 @@
 .ChatDetails {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
     border: 1px solid transparent;
-    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.16), 0px 1px 1px 0px rgba(0, 0, 0, 0.15);
+    box-shadow:
+        0px 1px 1px 0px rgba(0, 0, 0, 0.16),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.15);
     background-color: var(--shade5);
     border-color: var(--shade4);
     color: var(--fg);
@@ -72,7 +74,8 @@
             text-align: center;
             font-size: 0.8rem;
 
-            .fa, .ogs-goban {
+            .fa,
+            .ogs-goban {
                 padding-right: 0.1rem;
             }
         }

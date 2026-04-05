@@ -29,14 +29,14 @@
 
     &:focus-within {
         z-index: 9999;
-        margin: .3rem;
+        margin: 0.3rem;
         width: initial;
         padding: 3px;
         height: initial;
     }
 
     a {
-        padding: .6rem;
+        padding: 0.6rem;
         display: block;
 
         &:focus {

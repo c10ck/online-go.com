@@ -99,7 +99,8 @@
             font-weight: bold;
         }
 
-        .captures, .points {
+        .captures,
+        .points {
             font-weight: bold;
             position: relative;
             background-image: none;
@@ -266,7 +267,8 @@
         }
     }
 
-    .black.player-container .flag, .white.player-container .flag {
+    .black.player-container .flag,
+    .white.player-container .flag {
         margin-top: 0.1em;
         margin-right: 0.4em;
         margin-left: 0.4em;
@@ -315,11 +317,13 @@
         color: var(--player-white-clock);
     }
 
-    #game-black-clock .out_of_time, #game-white-clock .out_of_time {
+    #game-black-clock .out_of_time,
+    #game-white-clock .out_of_time {
         color: #f44;
     }
 
-    #game-black-clock .plenty_of_time, #game-white-clock .plenty_of_time {
+    #game-black-clock .plenty_of_time,
+    #game-white-clock .plenty_of_time {
         color: #000;
     }
 
@@ -333,12 +337,15 @@
         font-size: 0.7em;
     }
 
-    #game-black-clock .low_time, #game-white-clock .low_time {
+    #game-black-clock .low_time,
+    #game-white-clock .low_time {
         color: #f44 !important;
         font-weight: bold;
     }
 
-    #black_score, #white_score, .clock-container {
+    #black_score,
+    #white_score,
+    .clock-container {
         font-weight: bold;
     }
 
@@ -432,7 +439,10 @@
     }
 
     .player-container {
-        .captures, .points, .komi, .rules {
+        .captures,
+        .points,
+        .komi,
+        .rules {
             font-size: var(--font-size-small);
         }
 
@@ -452,7 +462,8 @@
             }
         }
 
-        .byo-yomi-container, .canadian-container {
+        .byo-yomi-container,
+        .canadian-container {
             font-size: 0.96em;
         }
     }
@@ -461,56 +472,60 @@
 [data-theme="dark"] .MainGobanView.zen .player-icons {
     .white {
         &.player-container {
-            background: linear-gradient(#2C2C2C 0%, #383838 100%);
+            background: linear-gradient(#2c2c2c 0%, #383838 100%);
             border: 1px solid #181818;
-            color: #DDD;
+            color: #ddd;
         }
     }
 
-    #game-white-clock, .white .score-container {
-        color: #DDD;
+    #game-white-clock,
+    .white .score-container {
+        color: #ddd;
     }
 
     .black {
         &.player-container {
-            background: linear-gradient(#111111 0%, #1A1A1A 100%);
+            background: linear-gradient(#111111 0%, #1a1a1a 100%);
             /* background: none; */
             background-color: #111111;
             border: 1px solid #181818;
-            color: #BBB;
+            color: #bbb;
         }
     }
 
-    #game-black-clock, .black .score-container {
-        color: #BBB;
+    #game-black-clock,
+    .black .score-container {
+        color: #bbb;
     }
 }
 
 [data-theme="accessible"] .MainGobanView.zen .player-icons {
     .white {
         &.player-container {
-            background: linear-gradient(#2C2C2C 0%, #383838 100%);
+            background: linear-gradient(#2c2c2c 0%, #383838 100%);
             border: 1px solid #181818;
-            color: #DDD;
+            color: #ddd;
         }
     }
 
-    #game-white-clock, .white .score-container {
-        color: #DDD;
+    #game-white-clock,
+    .white .score-container {
+        color: #ddd;
     }
 
     .black {
         &.player-container {
-            background: linear-gradient(#111111 0%, #1A1A1A 100%);
+            background: linear-gradient(#111111 0%, #1a1a1a 100%);
             /* background: none; */
             background-color: #111111;
             border: 1px solid #181818;
-            color: #BBB;
+            color: #bbb;
         }
     }
 
-    #game-black-clock, .black .score-container {
-        color: #BBB;
+    #game-black-clock,
+    .black .score-container {
+        color: #bbb;
     }
 }
 
@@ -527,7 +542,9 @@
 }
 
 .MainGobanView.zen {
-    .rengo-header, .rengo-teams-header, .rengo-team-members-container {
+    .rengo-header,
+    .rengo-teams-header,
+    .rengo-team-members-container {
         display: none;
     }
 
@@ -553,13 +570,15 @@
                 display: none;
             }
 
-            .main-time, .period-time {
+            .main-time,
+            .period-time {
                 line-height: 50px;
                 font-size: 26pt;
                 text-align: center;
             }
 
-            .byo-yomi-container, .canadian-clock-container {
+            .byo-yomi-container,
+            .canadian-clock-container {
                 display: block;
                 font-size: var(--font-size-mid);
                 flex-grow: 1;
@@ -567,7 +586,8 @@
         }
 
         .Clock:not(.in-overtime) {
-            .byo-yomi-container, .canadian-clock-container {
+            .byo-yomi-container,
+            .canadian-clock-container {
                 display: none;
             }
         }
@@ -602,7 +622,12 @@
             }
         }
 
-        .player-icon-container, .player-name-container, .player-name-plain, .score-details, .rules, .komi {
+        .player-icon-container,
+        .player-name-container,
+        .player-name-plain,
+        .score-details,
+        .rules,
+        .komi {
             display: none;
         }
     }

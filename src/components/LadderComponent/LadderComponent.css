@@ -15,7 +15,8 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 .LadderComponent {
-    h2, h4 {
+    h2,
+    h4 {
         text-align: center;
     }
 

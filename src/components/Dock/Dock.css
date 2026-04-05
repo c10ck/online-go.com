@@ -58,7 +58,10 @@
         text-decoration: none;
     }
 
-    i.fa, i.ogs-coordinates, i.ogs-zen-mode, i.ogs-goban {
+    i.fa,
+    i.ogs-coordinates,
+    i.ogs-zen-mode,
+    i.ogs-goban {
         font-size: 1.3rem;
         width: 1.3rem;
         margin-right: 0.7rem;

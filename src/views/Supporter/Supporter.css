@@ -63,7 +63,9 @@
             word-wrap: nowrap;
         }
 
-        .stripe, .paddle, .paypal {
+        .stripe,
+        .paddle,
+        .paypal {
             border-radius: 0.3rem;
             background-repeat: no-repeat;
             margin-left: 0.5rem;
@@ -72,7 +74,8 @@
             width: 8rem;
         }
 
-        .last4, .expiration {
+        .last4,
+        .expiration {
             display: inline-block;
             background-color: var(--shade5);
             width: 4rem;
@@ -128,8 +131,8 @@
         /* padding: 0.5rem; */
         text-align: center;
         border-radius: 0.7rem;
-        font-family: 'Tahoma', sans-serif;
-        background-color: #0097C7;
+        font-family: "Tahoma", sans-serif;
+        background-color: #0097c7;
         color: #ffffff;
         box-shadow: 0.2rem 0.2rem 0.7rem #000;
 
@@ -139,7 +142,8 @@
 
         /* [data-theme="dark"] { */
         /* } */
-        h3, p {
+        h3,
+        p {
             width: 100%;
         }
 
@@ -164,8 +168,8 @@
                 position: relative;
 
                 &:before {
-                    font-family: 'FontAwesome';
-                    content: '\f00c';
+                    font-family: "FontAwesome";
+                    content: "\f00c";
                     margin-left: -2rem;
                     position: absolute;
                 }
@@ -174,7 +178,7 @@
 
         > h1 {
             font-size: 1.6rem;
-            background-color: #007CA3;
+            background-color: #007ca3;
             color: #ffffff;
             margin: 0;
             border-top-left-radius: 0.7rem;
@@ -183,17 +187,17 @@
         }
 
         b.green {
-            color: #99FB21;
+            color: #99fb21;
         }
     }
 
     .DeprecatedPlanNote {
-        background-color: #0097C7;
+        background-color: #0097c7;
         max-width: 40rem;
         text-align: center;
         border-radius: 0.7rem;
-        font-family: 'Tahoma', sans-serif;
-        background-color: #0097C7;
+        font-family: "Tahoma", sans-serif;
+        background-color: #0097c7;
         color: #ffffff;
         padding: 1rem;
     }
@@ -233,7 +237,7 @@
         align-content: center;
 
         .ruler {
-            background-color: #007CA3;
+            background-color: #007ca3;
             height: 0.1rem;
             width: 100%;
             margin-top: 0.4rem;
@@ -247,19 +251,20 @@
             /* width: 8rem; */
             font-size: 1.2rem;
             font-weight: bold;
-            background-color: #FFC439;
+            background-color: #ffc439;
 
             i {
                 margin-left: 0.5rem;
             }
 
-            &.sign-up, &.paddle-sign-up {
-                background-color: #67478A;
+            &.sign-up,
+            &.paddle-sign-up {
+                background-color: #67478a;
                 color: #fff;
 
                 &:hover {
-                    border-color: #67478A;
-                    background-color: lighten(#67478A, 10%);
+                    border-color: #67478a;
+                    background-color: lighten(#67478a, 10%);
                 }
             }
 
@@ -280,7 +285,13 @@
         max-width: 40rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
-        background-image: repeating-linear-gradient(135deg, #888, #888 30px, #FFA100 30px, #FFA100 60px);
+        background-image: repeating-linear-gradient(
+            135deg,
+            #888,
+            #888 30px,
+            #ffa100 30px,
+            #ffa100 60px
+        );
 
         label {
             margin-left: 0.5rem;
@@ -299,7 +310,7 @@
             color: #000 !important;
         }
 
-        input[type='text'] {
+        input[type="text"] {
             width: 4rem;
             margin-left: 0.5rem;
         }
@@ -317,10 +328,9 @@
         width: 100%;
         margin-top: 1rem;
     }
-    
-    
+
     .highlight {
-        color: #99FB21;
+        color: #99fb21;
         font-weight: bold;
     }
 }
@@ -335,23 +345,22 @@
     background-color: #fff;
 
     &.card {
-        background-image: svg-load('payment_methods/card.svg');
+        background-image: svg-load("payment_methods/card.svg");
     }
 
     &.apple {
-        background-image: svg-load('payment_methods/apple.svg');
+        background-image: svg-load("payment_methods/apple.svg");
     }
 
     &.google {
-        background-image: svg-load('payment_methods/google.svg');
+        background-image: svg-load("payment_methods/google.svg");
     }
 
     &.bank {
-        background-image: svg-load('payment_methods/bank.svg');
+        background-image: svg-load("payment_methods/bank.svg");
     }
 
     &.sepa {
-        background-image: svg-load('payment_methods/sepa.svg');
+        background-image: svg-load("payment_methods/sepa.svg");
     }
 }
-

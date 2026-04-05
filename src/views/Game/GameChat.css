@@ -75,7 +75,8 @@
         color: var(--spectator-text-color);
     }
 
-    .chat-line.third-person .Player, .chat-line.third-person .body {
+    .chat-line.third-person .Player,
+    .chat-line.third-person .body {
         font-style: italic;
     }
 
@@ -106,7 +107,8 @@
     .body {
     }
 
-    .variation, .position {
+    .variation,
+    .position {
         font-weight: bold;
         /* border: 1px solid #999; */
         /* background-color: #DDE9F2; */
@@ -118,7 +120,8 @@
         padding-right: 0.2em;
     }
 
-    .variation:hover, .position:hover {
+    .variation:hover,
+    .position:hover {
         /* border: 1px solid #ccc; */
         /* background-color: #E7F3FC; */
         color: var(--variation-hover);
@@ -187,13 +190,15 @@
             color: var(--default-button-color);
             transition: background-color 0.3s ease;
 
-            &:hover, &:focus {
+            &:hover,
+            &:focus {
                 text-decoration: none;
                 background-color: var(--default-button-light);
                 border-color: var(--default-button-darker);
             }
 
-            &:active, &.fa-caret-down {
+            &:active,
+            &.fa-caret-down {
                 text-decoration: none;
                 background-color: var(--default-button-dark);
                 border-color: var(--default-button-darker);

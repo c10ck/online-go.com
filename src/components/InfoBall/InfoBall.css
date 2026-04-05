@@ -27,7 +27,8 @@
         display: none;
     }
 
-    &.force-show-details, &:hover {
+    &.force-show-details,
+    &:hover {
         .details {
             display: inline-block;
             max-width: 20rem;

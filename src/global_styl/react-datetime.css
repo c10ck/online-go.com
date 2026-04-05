@@ -49,7 +49,8 @@
     margin: 0;
 }
 
-.rdtPicker td, .rdtPicker th {
+.rdtPicker td,
+.rdtPicker th {
     text-align: center;
     height: 28px;
 }
@@ -58,12 +59,17 @@
     cursor: pointer;
 }
 
-.rdtPicker td.rdtDay:hover, .rdtPicker td.rdtHour:hover, .rdtPicker td.rdtMinute:hover, .rdtPicker td.rdtSecond:hover, .rdtPicker .rdtTimeToggle:hover {
+.rdtPicker td.rdtDay:hover,
+.rdtPicker td.rdtHour:hover,
+.rdtPicker td.rdtMinute:hover,
+.rdtPicker td.rdtSecond:hover,
+.rdtPicker .rdtTimeToggle:hover {
     background: #eeeeee;
     cursor: pointer;
 }
 
-.rdtPicker td.rdtOld, .rdtPicker td.rdtNew {
+.rdtPicker td.rdtOld,
+.rdtPicker td.rdtNew {
     color: #999999;
 }
 
@@ -72,7 +78,7 @@
 }
 
 .rdtPicker td.rdtToday:before {
-    content: '';
+    content: "";
     display: inline-block;
     border-left: 7px solid transparent;
     border-bottom: 7px solid #428bca;
@@ -82,7 +88,8 @@
     right: 4px;
 }
 
-.rdtPicker td.rdtActive, .rdtPicker td.rdtActive:hover {
+.rdtPicker td.rdtActive,
+.rdtPicker td.rdtActive:hover {
     background-color: #428bca;
     color: #fff;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
@@ -92,7 +99,8 @@
     border-bottom-color: #fff;
 }
 
-.rdtPicker td.rdtDisabled, .rdtPicker td.rdtDisabled:hover {
+.rdtPicker td.rdtDisabled,
+.rdtPicker td.rdtDisabled:hover {
     background: none;
     color: #999999;
     cursor: not-allowed;
@@ -102,7 +110,8 @@
     color: #999999;
 }
 
-.rdtPicker td span.rdtDisabled, .rdtPicker td span.rdtDisabled:hover {
+.rdtPicker td span.rdtDisabled,
+.rdtPicker td span.rdtDisabled:hover {
     background: none;
     color: #999999;
     cursor: not-allowed;
@@ -121,12 +130,14 @@
     width: 100px;
 }
 
-.rdtPicker th.rdtNext, .rdtPicker th.rdtPrev {
+.rdtPicker th.rdtNext,
+.rdtPicker th.rdtPrev {
     font-size: 21px;
     vertical-align: top;
 }
 
-.rdtPrev span, .rdtNext span {
+.rdtPrev span,
+.rdtNext span {
     display: block;
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Chrome/Safari/Opera */
@@ -136,7 +147,8 @@
     user-select: none;
 }
 
-.rdtPicker th.rdtDisabled, .rdtPicker th.rdtDisabled:hover {
+.rdtPicker th.rdtDisabled,
+.rdtPicker th.rdtDisabled:hover {
     background: none;
     color: #999999;
     cursor: not-allowed;
@@ -169,13 +181,15 @@
     height: 100%;
 }
 
-td.rdtMonth, td.rdtYear {
+td.rdtMonth,
+td.rdtYear {
     height: 50px;
     width: 25%;
     cursor: pointer;
 }
 
-td.rdtMonth:hover, td.rdtYear:hover {
+td.rdtMonth:hover,
+td.rdtYear:hover {
     background: #eee;
 }
 

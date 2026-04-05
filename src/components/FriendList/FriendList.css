@@ -17,7 +17,8 @@
 .FriendList {
     .show-offline,
     .notify-on-decline {
-        input, label {
+        input,
+        label {
             cursor: pointer;
         }
 

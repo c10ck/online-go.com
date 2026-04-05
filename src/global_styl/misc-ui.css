@@ -19,7 +19,8 @@
     align-items: center;
     align-content: stretch;
 
-    .left, .right {
+    .left,
+    .right {
         flex: 1;
         border-bottom: 1px solid #888;
         border-color: var(--shade3);
@@ -39,13 +40,14 @@
 }
 
 @keyframes pulsate-reject {
-    0%, 100% {
+    0%,
+    100% {
     }
 
     50% {
         box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.35);
         /* --reject is #FF410F in light theme; lightened 15% is approximately #FF7452 */
-        background-color: #FF7452;
+        background-color: #ff7452;
     }
 }
 
@@ -118,7 +120,8 @@
     margin: 100px auto;
 }
 
-.double-bounce1, .double-bounce2 {
+.double-bounce1,
+.double-bounce2 {
     width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -137,7 +140,8 @@
 }
 
 @keyframes sk-bounce {
-    0%, 100% {
+    0%,
+    100% {
         -webkit-transform: scale(0);
     }
 
@@ -147,7 +151,8 @@
 }
 
 @keyframes sk-bounce {
-    0%, 100% {
+    0%,
+    100% {
         transform: scale(0);
         -webkit-transform: scale(0);
     }

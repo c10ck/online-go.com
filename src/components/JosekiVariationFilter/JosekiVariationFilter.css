@@ -22,7 +22,8 @@
     .filter-set {
         margin-bottom: 0.5em;
 
-        select, .joseki-tag-selector {
+        select,
+        .joseki-tag-selector {
             margin-left: 0.5em;
         }
 

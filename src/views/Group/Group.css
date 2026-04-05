@@ -36,12 +36,14 @@
     .admins {
         margin-bottom: 1rem;
 
-        >b, >span {
+        > b,
+        > span {
             margin-right: 1rem;
         }
     }
 
-    .fa-pencil, .fa-save {
+    .fa-pencil,
+    .fa-save {
         position: absolute;
         top: 1rem;
         right: 1rem;
@@ -62,7 +64,8 @@
     .Player {
         margin-right: 0.5em;
 
-        &.online, &.offline {
+        &.online,
+        &.offline {
             &:before {
                 top: 0;
             }

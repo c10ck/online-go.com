@@ -121,7 +121,9 @@ export const systemPMButtonTest = async ({
     log("User submitting appeal...");
     await userPage.goto("/");
 
-    await expect(userPage.getByText("Your account has been suspended")).toBeVisible({ timeout: 10000 });
+    await expect(userPage.getByText("Your account has been suspended")).toBeVisible({
+        timeout: 10000,
+    });
     log("Suspension banner visible ✓");
 
     // Click appeal link
@@ -147,7 +149,9 @@ export const systemPMButtonTest = async ({
     log("Moderator navigating to Appeals Centre...");
     await modPage.goto("/appeals-center");
 
-    await expect(modPage.getByRole("heading", { name: /Appeals Center/i })).toBeVisible({ timeout: 10000 });
+    await expect(modPage.getByRole("heading", { name: /Appeals Center/i })).toBeVisible({
+        timeout: 10000,
+    });
     log("Appeals Centre loaded ✓");
 
     // Find and click on the user's appeal
@@ -160,7 +164,9 @@ export const systemPMButtonTest = async ({
     log("Appeal opened ✓");
 
     // 6. Verify moderator sees the appeal message
-    await expect(modPage.getByText(/I apologize and would like to return to OGS/i)).toBeVisible({ timeout: 10000 });
+    await expect(modPage.getByText(/I apologize and would like to return to OGS/i)).toBeVisible({
+        timeout: 10000,
+    });
     log("Appeal message visible to moderator ✓");
 
     // 7. Enter a message first to enable the buttons

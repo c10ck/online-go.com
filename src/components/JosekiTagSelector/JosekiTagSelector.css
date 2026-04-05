@@ -22,7 +22,7 @@
         border-bottom: 1px solid;
         border-bottom-color: var(--shade1);
 
-        div[class^='Select'] {
+        div[class^="Select"] {
             background: var(--bg);
             color: var(--fg);
             border-color: var(--shade1);

@@ -5,6 +5,7 @@ send authenticated requests to backend services.
 To validate this JWT use the following keys with the `RS256` algorithm:
 
 # Production public key
+
 ```
 -----BEGIN PUBLIC KEY-----
 MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAw2anizgphDOiYYO36A+C
@@ -22,8 +23,8 @@ DFyihh1KUkUUdHC0xGrbFvkCAwEAAQ==
 -----END PUBLIC KEY-----
 ```
 
-
 # Beta public key
+
 ```
 -----BEGIN PUBLIC KEY-----
 MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAsXuQUWuubpd5KDdj88ri

@@ -51,9 +51,9 @@
         &::after {
             padding-left: 0.25rem;
             width: 0.8rem;
-            font-family: 'FontAwesome';
+            font-family: "FontAwesome";
             font-size: 0.7rem;
-            content: '';
+            content: "";
         }
 
         &.reported::after {
@@ -73,9 +73,9 @@
 
     &.with-flare:before {
         width: 0.8rem;
-        font-family: 'FontAwesome';
+        font-family: "FontAwesome";
         font-size: 0.7rem;
-        content: ' ';
+        content: " ";
     }
 
     &.with-flare.supporter:before {
@@ -100,22 +100,22 @@
     }
 
     &.with-flare.dragon:before {
-        content: ' ';
+        content: " ";
         width: 0.75rem;
         height: 0.75rem;
         display: inline-block;
-        background-image: svg-load('dragon-icon.svg');
+        background-image: svg-load("dragon-icon.svg");
         background-size: cover;
         margin-left: -0.05rem;
         margin-right: 0.05rem;
     }
 
     &.with-flare.aga:before {
-        content: ' ';
+        content: " ";
         width: 0.75rem;
         height: 0.75rem;
         display: inline-block;
-        background-image: url('https://cdn.online-go.com/assets/agaico1.png');
+        background-image: url("https://cdn.online-go.com/assets/agaico1.png");
         background-size: cover;
         margin-left: -0.05rem;
         margin-right: 0.05rem;
@@ -169,7 +169,8 @@
     /* --- */
     /* This is the chat presence indicator in the PM chat dialog box ... */
     /* ... and in the Friends list, where it is currently not aligned properly, despite vertical-align: middle ! */
-    &.online, &.offline {
+    &.online,
+    &.offline {
         position: relative;
         padding-left: 0.6rem;
 
@@ -179,7 +180,7 @@
             font-size: 0.5rem;
             height: 1rem;
             width: 0.5rem;
-            font-family: 'FontAwesome';
+            font-family: "FontAwesome";
             content: var(--fa-circle-content);
             color: var(--chat-offline);
             text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
@@ -214,7 +215,7 @@
     }
 
     &.white-player::before {
-        content: '';
+        content: "";
         width: 8px;
         height: 8px;
         border-radius: 50%;
@@ -224,7 +225,7 @@
     }
 
     &.black-player::before {
-        content: '';
+        content: "";
         width: 8px;
         height: 8px;
         border-radius: 50%;

@@ -213,14 +213,10 @@ export const aiDetectionPlayerFilterTest = async ({
             expect(profileUrl).toContain(`/player/${filteredPlayerId}`);
             log(`Profile opened in new tab: ${profileUrl} ✓`);
         } else {
-            log(
-                "⚠ Could not extract player ID from URL, skipping profile navigation test",
-            );
+            log("⚠ Could not extract player ID from URL, skipping profile navigation test");
         }
     } else {
-        log(
-            "⚠ No filtered player found in first column, skipping profile navigation test",
-        );
+        log("⚠ No filtered player found in first column, skipping profile navigation test");
     }
 
     // 12. Verify original tab still has its filters intact

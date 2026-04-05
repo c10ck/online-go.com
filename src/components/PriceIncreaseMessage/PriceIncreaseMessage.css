@@ -50,11 +50,12 @@
         justify-content: space-around;
         margin-top: 0.75rem;
 
-        .translation-original, .language-map {
+        .translation-original,
+        .language-map {
             display: none;
         }
     }
-    
+
     .title {
         padding-bottom: 0.75rem;
     }

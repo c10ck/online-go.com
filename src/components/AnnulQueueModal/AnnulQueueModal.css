@@ -97,7 +97,8 @@
         width: 85%;
     }
 
-    .modal-actions, .close {
+    .modal-actions,
+    .close {
         margin: 0 0px;
     }
 
@@ -156,12 +157,14 @@
         box-shadow: none;
     }
 
-    .nav-arrow:hover i, .nav-arrow:focus i {
+    .nav-arrow:hover i,
+    .nav-arrow:focus i {
         transform: scale(1.3);
         color: #2196f3;
     }
 
-    .nav-arrow:hover, .nav-arrow:focus {
+    .nav-arrow:hover,
+    .nav-arrow:focus {
         background: none;
         border: none;
         box-shadow: none;

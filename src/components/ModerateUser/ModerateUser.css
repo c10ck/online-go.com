@@ -26,7 +26,7 @@
         }
     }
 
-    input[type='number'] {
+    input[type="number"] {
         width: 4rem;
         margin-left: 0.2rem;
     }

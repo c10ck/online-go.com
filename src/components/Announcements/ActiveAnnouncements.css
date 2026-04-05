@@ -28,7 +28,7 @@
     /* margin: auto; */
     margin-top: 1rem;
     padding: 0;
-    overflow: visible;  /* Allow popup menus to extend outside the container */
+    overflow: visible; /* Allow popup menus to extend outside the container */
 
     .announcement {
         display: flex;
@@ -37,7 +37,7 @@
         padding: 0.75rem 1rem;
         background-color: var(--bg);
         border-left: 3px solid transparent;
-        border-left-color: var(--shade3);  /* Default color for non-system announcements */
+        border-left-color: var(--shade3); /* Default color for non-system announcements */
         transition: all 0.2s ease;
 
         /* Add top border for separation (except first announcement) */
@@ -66,7 +66,8 @@
                 align-items: center;
                 gap: 0.5rem;
 
-                a, span {
+                a,
+                span {
                     display: inline-block;
                     padding: 0.125rem 0.25rem;
                     border-radius: 3px;
@@ -90,8 +91,8 @@
             padding: 0;
             margin-left: 1rem;
             flex-shrink: 0;
-            position: relative;  /* Ensure proper stacking context */
-            z-index: 10;  /* Ensure menu appears above other content */
+            position: relative; /* Ensure proper stacking context */
+            z-index: 10; /* Ensure menu appears above other content */
 
             .popup-menu-button {
                 padding: 0.25rem;
@@ -116,7 +117,8 @@
 
             .announcement-content {
                 .announcement-entry {
-                    a, span {
+                    a,
+                    span {
                         font-size: 0.9rem;
                     }
                 }

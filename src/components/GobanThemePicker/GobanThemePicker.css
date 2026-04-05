@@ -27,7 +27,8 @@
         padding-bottom: 1rem;
     }
 
-    .theme-set, .custom-theme-set {
+    .theme-set,
+    .custom-theme-set {
         display: inline-flex;
         flex-direction: row;
         width: 320px;
@@ -47,13 +48,14 @@
             text-transform: uppercase;
         }
 
-        .selector:hover, .selector.active {
+        .selector:hover,
+        .selector.active {
             border-color: var(--primary);
             border-width: 2px;
             opacity: 1;
         }
 
-        input[type=color] {
+        input[type="color"] {
             width: 1.5rem;
             height: 1.5rem;
             margin-left: 1rem;

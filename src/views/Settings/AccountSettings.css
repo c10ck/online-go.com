@@ -11,7 +11,8 @@
         flex-wrap: wrap;
     }
 
-    .left, .right {
+    .left,
+    .right {
         display: flex;
         flex-direction: column;
         align-items: center;

@@ -32,7 +32,8 @@
             padding: 0.5em;
         }
 
-        table.rules th, table.rules td {
+        table.rules th,
+        table.rules td {
             width: 20em;
         }
 
